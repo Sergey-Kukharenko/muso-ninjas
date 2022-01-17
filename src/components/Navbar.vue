@@ -66,6 +66,12 @@ nav h1 {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 375px){
+  nav h1 {
+    margin-left: 10px;
+  }
+}
+
 nav .links {
   margin-left: auto;
 }
@@ -75,11 +81,25 @@ nav .links a, button {
   font-size: 14px;
 }
 
+@media screen and (max-width: 375px){
+  nav .links a, button {
+    margin: 0 2px;
+  }
+}
+
 span {
   font-size: 14px;
   display: inline-block;
   margin-left: 16px;
   padding-left: 16px;
   border-left: 1px solid #eee;
+}
+
+@media screen and (max-width: 375px){
+  span {
+    border: none;
+    margin: 0 6px 0 0;
+    padding: 0;
+  }
 }
 </style>
